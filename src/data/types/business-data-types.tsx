@@ -29,6 +29,8 @@ type WebsiteContent = {
 type Sections = {
   hero_video: HeroVideoSection;
   presentation: PresentationSection;
+  services: ServicesSection;
+
   story: StorySection;
   gallery: GallerySection;
   menu: MenuSection;
@@ -39,6 +41,16 @@ type Sections = {
   contact: ContactSection;
   footer: FooterSection;
 };
+
+export type ServicesSection = {
+  service_list: Service[]
+}
+
+type Service = {
+  title: string;
+  icon_path: string;
+  infos: string[];
+}
 
 export type HeroVideoSection = {
   video_src: string;

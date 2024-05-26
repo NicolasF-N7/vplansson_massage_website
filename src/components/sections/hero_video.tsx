@@ -35,7 +35,7 @@ const HeroVideo = ({ content }: {content: HeroVideoSection}) => {
               visible: { opacity: 1 },
               hidden: { opacity: 0 },
             }}
-            className="flex flex-col justify-start items-start row-start-2 sm:row-start-1">
+            className="flex flex-col justify-start items-start">
               {/* Video frame */}
               <video src={require("/public/hero_video.mp4")}
               autoPlay loop muted 

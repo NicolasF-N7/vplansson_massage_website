@@ -20,11 +20,36 @@ export const business_data = {
         "sections": {
             "hero_video": {
                 "video_src": "/video/hero.mp4",
-                "titles": ["Soins corporels", "&", "energétiques"]
+                "titles": ["Soins corporels", "& energétiques"]
             },
             "presentation": {
                 "title": "L'énergie est indispensable pour faire rejaillir un équilibre corporel de nos mémoire émotionnelle.",
                 "image_src": "/presentation.webp"
+            },
+            "services": {
+                "service_list": [
+                    {
+                        "title": "Soin visage",
+                        "icon_path": "/face_care.svg",
+                        "infos": ["1 heure", "60 €"]
+                    },{
+                        "title": "Massage corps",
+                        "icon_path": "/face_care.svg",
+                        "infos": ["1 heure", "60 €"]
+                    },{
+                        "title": "Massage dos",
+                        "icon_path": "/face_care.svg",
+                        "infos": ["1 heure", "60 €"]
+                    },{
+                        "title": "Massage dos",
+                        "icon_path": "/face_care.svg",
+                        "infos": ["1 heure", "60 €"]
+                    },{
+                        "title": "Massage dos",
+                        "icon_path": "/face_care.svg",
+                        "infos": ["1 heure", "60 €"]
+                    },
+                ]
             }
         }
     }
