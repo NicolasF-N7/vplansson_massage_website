@@ -69,7 +69,7 @@ function Page({ currentPage, business, navigation, children } : {currentPage: st
 
         {/* Sections content */}
         {/* Space y sets margin top and bottom of each child (except outmost children) */}
-        <div className="space-y-8">
+        <div className="">
           {children}
         </div>
 

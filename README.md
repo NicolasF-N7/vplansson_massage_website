@@ -1,11 +1,8 @@
-# Doc for Google maps api
-https://developers.google.com/maps/documentation/javascript/load-maps-js-api
-
-## Other Gmaps apis
-https://www.npmjs.com/package/@googlemaps/js-api-loader
-https://www.npmjs.com/package/@react-google-maps/api
-https://www.npmjs.com/package/react-google-maps
-https://www.npmjs.com/package/google-map-react
-
-React wrapper
-https://developers.google.com/maps/documentation/javascript/react-map?hl=fr
+# TODO to adapt template
+1. Edit menu
+2. Edit site.webmanifest
+3. business-data: open graph data: business object
+4. Add Favicon
+5. Change tabs titles
+6. Change social media
+7. Add public/logo.png

@@ -14,7 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        bg: '#FCCA46',
+        bg: '#FBF1D3',
         'charcoal': '#233D4D',
         'pumpkin': '#FE7F2D',
         'deepPumpkin': '#f76201',
@@ -22,6 +22,10 @@ const config: Config = {
         'olivine': '#A1C181',
         'zomp': '#619B8A',
 
+        'header': {
+          'hero': "#fff",
+          "presentation": "#3D30A2"
+        },
         'mobile-menu-bg': '#1e212b',
         'mainCTA': {
           "normal": '#FE7F1D',
@@ -34,8 +38,8 @@ const config: Config = {
           "text": "#000",
         },
         "footer-bg": '#1e212b',
-        "navbar": '#984848',
-        "textNavbar": '#eee',
+        "navbar": '#FBF1D3',
+        "textNavbar": '#3D30A2',
         "textMobileNavBarOpened": '#fff',
         "expandable": "#e1e1ea",
         "expanded": "#f1f1fa"

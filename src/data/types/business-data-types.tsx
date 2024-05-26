@@ -27,7 +27,8 @@ type WebsiteContent = {
 
 // Define type for the sections object containing all sections
 type Sections = {
-  hero: HeroSection;
+  hero_video: HeroVideoSection;
+  presentation: PresentationSection;
   story: StorySection;
   gallery: GallerySection;
   menu: MenuSection;
@@ -39,16 +40,19 @@ type Sections = {
   footer: FooterSection;
 };
 
+export type HeroVideoSection = {
+  video_src: string;
+  titles: string[];
+}
+
 export type Navigation = {
   menus: string[];
 }
 
 // Define type for the hero section
-export type HeroSection = {
+export type PresentationSection = {
   title: string;
-  subtitle: string;
-  call_to_action: CallToAction;
-  info: InfoHero[];
+  image_src: string;
 };
 
 type InfoHero = {
