@@ -58,12 +58,12 @@ function Page({ currentPage, business, navigation, children } : {currentPage: st
       <main className="w-full flex-1 text-center">
 
         {/* Desktop nav bar */}
-        <div className="p-5 hidden sm:block z-100 bg-navbar">
+        <div className="hidden sm:block z-100 bg-transparent">
           <Navbar currentPage={currentPage} businessInfo={business} navigationInfo={navigation}/>
         </div>
 
         {/* Mobile nav bar */}
-        <div className="block sm:hidden z-100 bg-navbar">
+        <div className="block sm:hidden z-100 bg-transparent">
           <MobileNavbar businessInfo={business} navigationInfo={navigation}/>
         </div>
 

@@ -26,6 +26,9 @@ const config: Config = {
           'hero': "#fff",
           "presentation": "#3D30A2"
         },
+        'services': {
+          "border": "#555"
+        },
         'mobile-menu-bg': '#1e212b',
         'mainCTA': {
           "normal": '#FE7F1D',

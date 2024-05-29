@@ -38,7 +38,7 @@ const HeroVideo = ({ content }: {content: HeroVideoSection}) => {
             className="flex flex-col justify-start items-start">
               {/* Video frame */}
               <video src={require("/public/hero_video.mp4")}
-              autoPlay loop muted 
+              loop muted autoPlay
               className="top-0 right-0 z-[-1] object-cover"
               poster="/public/hero_pict.jpg"></video>
 
@@ -62,41 +62,10 @@ const HeroVideo = ({ content }: {content: HeroVideoSection}) => {
                 </InView>
                 ))}
               </h1>
-              
-              
-
 
           </motion.div>
         )}
       </InView>
-      
-      
-      {/* {content.titles.map((title, index) => (
-        <InView threshold={0.25} triggerOnce>
-          {({ ref, inView}) => (
-            <motion.div
-              ref={ref}
-              initial={{ opacity: 0 }}
-              animate={inView ? 'visible' : 'hidden'}
-              transition={{ duration: 0.2 }}
-              variants={{
-                visible: { opacity: 1 },
-                hidden: { opacity: 0 },
-              }}
-              className="">
-                      
-                <span className={`pl-[${index * 12}] sm:text-5xl lg:text-7xl text-header-hero uppercase font-light`}>{title}</span>
-                      
-                    
-
-            </motion.div>
-          )}
-        </InView>
-      ))}
-      </h1> */}
-
-
-
       
     </div>
   );

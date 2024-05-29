@@ -6,7 +6,8 @@ import { Link as ScrollLink } from 'react-scroll';
 
 function Navbar({ currentPage, businessInfo, navigationInfo } : {currentPage: string, businessInfo: Business, navigationInfo: Navigation}) {
   return (
-    <nav className="flex items-center justify-between">
+    <nav className=" flex flex-row items-center justify-between">
+      {/* Logo */}
       <li className="list-none font-bold text-lg">
           <span className="text-textNavbar text-xl flex items-center">
             <img
@@ -19,6 +20,7 @@ function Navbar({ currentPage, businessInfo, navigationInfo } : {currentPage: st
               </h2>
           </span>
       </li>
+      {/* Menus */}
       <ul className="flex items-center space-x-10">
         {navigationInfo.menus.map((menu, index) => {
           const menuRoute = transformToSafeUrl(menu);
